@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_53b7f455805956a43c6e0e9fffdc3cfa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_53b7f455805956a43c6e0e9fffdc3cfa" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_53b7f455805956a43c6e0e9fffdc3cfa = L.map(
+                "map_53b7f455805956a43c6e0e9fffdc3cfa",
+                {
+                    center: [45.9713, 12.2537],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e07d0cce74fccb8701c6e411b6e5820e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+            var marker_1e24c86a1e3d4a5c053ed0a533959041 = L.marker(
+                [45.97, 12.25],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_1901d386ce44af0dd34473eb44db8f49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49aed0dfc50ed9c239bf6c5c7958646b = $(`<div id="html_49aed0dfc50ed9c239bf6c5c7958646b" style="width: 100.0%; height: 100.0%;">Laghi di Revine</div>`)[0];
+            popup_1901d386ce44af0dd34473eb44db8f49.setContent(html_49aed0dfc50ed9c239bf6c5c7958646b);
+        
+
+        marker_1e24c86a1e3d4a5c053ed0a533959041.bindPopup(popup_1901d386ce44af0dd34473eb44db8f49)
+        ;
+
+        
+    
+    
+            marker_1e24c86a1e3d4a5c053ed0a533959041.bindTooltip(
+                `<div>
+                     Laghi di Revine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7ae39654c79220e17db42385fcd1e2b = L.marker(
+                [45.9644, 12.2961],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_6a143991688159b42f00e7679fb9b89a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31fdac591c038ecb32b8e8d271ca8277 = $(`<div id="html_31fdac591c038ecb32b8e8d271ca8277" style="width: 100.0%; height: 100.0%;">Grotte del Caglieron</div>`)[0];
+            popup_6a143991688159b42f00e7679fb9b89a.setContent(html_31fdac591c038ecb32b8e8d271ca8277);
+        
+
+        marker_b7ae39654c79220e17db42385fcd1e2b.bindPopup(popup_6a143991688159b42f00e7679fb9b89a)
+        ;
+
+        
+    
+    
+            marker_b7ae39654c79220e17db42385fcd1e2b.bindTooltip(
+                `<div>
+                     Grotte del Caglieron
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29d043fdf3f2ff823730c57fb8a41b6f = L.marker(
+                [45.9617, 12.2722],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_d22511f71ed89043c26cdd3a592c1e58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a54b710e0937380d1c5deb2ef26fa34e = $(`<div id="html_a54b710e0937380d1c5deb2ef26fa34e" style="width: 100.0%; height: 100.0%;">La Posa</div>`)[0];
+            popup_d22511f71ed89043c26cdd3a592c1e58.setContent(html_a54b710e0937380d1c5deb2ef26fa34e);
+        
+
+        marker_29d043fdf3f2ff823730c57fb8a41b6f.bindPopup(popup_d22511f71ed89043c26cdd3a592c1e58)
+        ;
+
+        
+    
+    
+            marker_29d043fdf3f2ff823730c57fb8a41b6f.bindTooltip(
+                `<div>
+                     La Posa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68fa1a50b9e41cce4375e3b15fa11192 = L.marker(
+                [45.7971, 11.9172],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_de581d4a7b2be60a08edf55330368c4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4056342e56e08f3bdecaa0277ded130b = $(`<div id="html_4056342e56e08f3bdecaa0277ded130b" style="width: 100.0%; height: 100.0%;">Gipsoteca del Canova</div>`)[0];
+            popup_de581d4a7b2be60a08edf55330368c4d.setContent(html_4056342e56e08f3bdecaa0277ded130b);
+        
+
+        marker_68fa1a50b9e41cce4375e3b15fa11192.bindPopup(popup_de581d4a7b2be60a08edf55330368c4d)
+        ;
+
+        
+    
+    
+            marker_68fa1a50b9e41cce4375e3b15fa11192.bindTooltip(
+                `<div>
+                     Gipsoteca del Canova
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b3f3977ff5677674580d97e5dc57690 = L.marker(
+                [45.4408, 12.3155],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_afa8a6d9437a7fd054dd865cb5fa7335 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29b8787c733c5326d054751f8e2dec34 = $(`<div id="html_29b8787c733c5326d054751f8e2dec34" style="width: 100.0%; height: 100.0%;">Venezia</div>`)[0];
+            popup_afa8a6d9437a7fd054dd865cb5fa7335.setContent(html_29b8787c733c5326d054751f8e2dec34);
+        
+
+        marker_8b3f3977ff5677674580d97e5dc57690.bindPopup(popup_afa8a6d9437a7fd054dd865cb5fa7335)
+        ;
+
+        
+    
+    
+            marker_8b3f3977ff5677674580d97e5dc57690.bindTooltip(
+                `<div>
+                     Venezia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5cf123af8be3a6e5ffa7bd5670410999 = L.marker(
+                [46.5405, 12.1357],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_114f38af8840f0fb16ae5d093c5e0899 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72948d859df3ce3eb919851281cc4b65 = $(`<div id="html_72948d859df3ce3eb919851281cc4b65" style="width: 100.0%; height: 100.0%;">Cortina d'Ampezzo</div>`)[0];
+            popup_114f38af8840f0fb16ae5d093c5e0899.setContent(html_72948d859df3ce3eb919851281cc4b65);
+        
+
+        marker_5cf123af8be3a6e5ffa7bd5670410999.bindPopup(popup_114f38af8840f0fb16ae5d093c5e0899)
+        ;
+
+        
+    
+    
+            marker_5cf123af8be3a6e5ffa7bd5670410999.bindTooltip(
+                `<div>
+                     Cortina d'Ampezzo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5226ccca57ba2cc15b008be95627ae4c = L.marker(
+                [45.8919, 12.1778],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_0478f9b54cd53f749c465504eb0cecd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08515b0a8efa41be5e20b9a99f37c870 = $(`<div id="html_08515b0a8efa41be5e20b9a99f37c870" style="width: 100.0%; height: 100.0%;">Colline del Prosecco</div>`)[0];
+            popup_0478f9b54cd53f749c465504eb0cecd7.setContent(html_08515b0a8efa41be5e20b9a99f37c870);
+        
+
+        marker_5226ccca57ba2cc15b008be95627ae4c.bindPopup(popup_0478f9b54cd53f749c465504eb0cecd7)
+        ;
+
+        
+    
+    
+            marker_5226ccca57ba2cc15b008be95627ae4c.bindTooltip(
+                `<div>
+                     Colline del Prosecco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b71220b9c0271bb2aa60a1252563b552 = L.marker(
+                [45.9772, 12.2528],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_3c018a51b144d40675544c990e7c4545 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b61ab321d622f3f325cf2da283f64c3 = $(`<div id="html_8b61ab321d622f3f325cf2da283f64c3" style="width: 100.0%; height: 100.0%;">Parco Archeologico Didattico del Livelet</div>`)[0];
+            popup_3c018a51b144d40675544c990e7c4545.setContent(html_8b61ab321d622f3f325cf2da283f64c3);
+        
+
+        marker_b71220b9c0271bb2aa60a1252563b552.bindPopup(popup_3c018a51b144d40675544c990e7c4545)
+        ;
+
+        
+    
+    
+            marker_b71220b9c0271bb2aa60a1252563b552.bindTooltip(
+                `<div>
+                     Parco Archeologico Didattico del Livelet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_231a98cc427dd4802ed2bb12c003ccb8 = L.marker(
+                [45.8895, 12.301],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_006a13dc85ace860e65f5940caf85049 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc88059622b1736b86585b3525559380 = $(`<div id="html_dc88059622b1736b86585b3525559380" style="width: 100.0%; height: 100.0%;">Castello di Conegliano</div>`)[0];
+            popup_006a13dc85ace860e65f5940caf85049.setContent(html_dc88059622b1736b86585b3525559380);
+        
+
+        marker_231a98cc427dd4802ed2bb12c003ccb8.bindPopup(popup_006a13dc85ace860e65f5940caf85049)
+        ;
+
+        
+    
+    
+            marker_231a98cc427dd4802ed2bb12c003ccb8.bindTooltip(
+                `<div>
+                     Castello di Conegliano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_356876f22c9343487c1f347c6b880267 = L.marker(
+                [45.9641, 12.1175],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_b0fc1e59240de5389917350a2eca73c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9071c6b54211dab06c2fbaa2ac3bed05 = $(`<div id="html_9071c6b54211dab06c2fbaa2ac3bed05" style="width: 100.0%; height: 100.0%;">Abbazia di Follina</div>`)[0];
+            popup_b0fc1e59240de5389917350a2eca73c4.setContent(html_9071c6b54211dab06c2fbaa2ac3bed05);
+        
+
+        marker_356876f22c9343487c1f347c6b880267.bindPopup(popup_b0fc1e59240de5389917350a2eca73c4)
+        ;
+
+        
+    
+    
+            marker_356876f22c9343487c1f347c6b880267.bindTooltip(
+                `<div>
+                     Abbazia di Follina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d53897d3a6592cf0a53b423ef4b0bd8 = L.marker(
+                [45.9274, 12.1892],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_c5131fdad6024077d1e5cd2d0a5282df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef99f1fc3fab1d4f143c60d0ccf61c25 = $(`<div id="html_ef99f1fc3fab1d4f143c60d0ccf61c25" style="width: 100.0%; height: 100.0%;">Molinetto della Croda</div>`)[0];
+            popup_c5131fdad6024077d1e5cd2d0a5282df.setContent(html_ef99f1fc3fab1d4f143c60d0ccf61c25);
+        
+
+        marker_0d53897d3a6592cf0a53b423ef4b0bd8.bindPopup(popup_c5131fdad6024077d1e5cd2d0a5282df)
+        ;
+
+        
+    
+    
+            marker_0d53897d3a6592cf0a53b423ef4b0bd8.bindTooltip(
+                `<div>
+                     Molinetto della Croda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_013d5e9d42d0646de60e787037b7a95f = L.marker(
+                [46.1727, 12.3269],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_c9c186c36f41a44dd24d509b65edf772 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b42f7474f4f465f09b731d2c844f5682 = $(`<div id="html_b42f7474f4f465f09b731d2c844f5682" style="width: 100.0%; height: 100.0%;">Lago di Santa Croce</div>`)[0];
+            popup_c9c186c36f41a44dd24d509b65edf772.setContent(html_b42f7474f4f465f09b731d2c844f5682);
+        
+
+        marker_013d5e9d42d0646de60e787037b7a95f.bindPopup(popup_c9c186c36f41a44dd24d509b65edf772)
+        ;
+
+        
+    
+    
+            marker_013d5e9d42d0646de60e787037b7a95f.bindTooltip(
+                `<div>
+                     Lago di Santa Croce
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0312da3041f6caf70a128129ba4eac39 = L.marker(
+                [45.8145, 11.9342],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_143cc827e0bcbadd537d3b1fe8bd2ecf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f2b0c9c62be8016c5c36b5f715367b6 = $(`<div id="html_6f2b0c9c62be8016c5c36b5f715367b6" style="width: 100.0%; height: 100.0%;">Villa Barbaro</div>`)[0];
+            popup_143cc827e0bcbadd537d3b1fe8bd2ecf.setContent(html_6f2b0c9c62be8016c5c36b5f715367b6);
+        
+
+        marker_0312da3041f6caf70a128129ba4eac39.bindPopup(popup_143cc827e0bcbadd537d3b1fe8bd2ecf)
+        ;
+
+        
+    
+    
+            marker_0312da3041f6caf70a128129ba4eac39.bindTooltip(
+                `<div>
+                     Villa Barbaro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e0433032eaf95b4a63f760bd6e25479 = L.marker(
+                [45.9722, 12.2869],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_2be3767ecbaa5f520021dc0471da9964 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b3c37bee7981f0413347ea370e9dfcc = $(`<div id="html_4b3c37bee7981f0413347ea370e9dfcc" style="width: 100.0%; height: 100.0%;">Santuario di Santa Augusta</div>`)[0];
+            popup_2be3767ecbaa5f520021dc0471da9964.setContent(html_4b3c37bee7981f0413347ea370e9dfcc);
+        
+
+        marker_6e0433032eaf95b4a63f760bd6e25479.bindPopup(popup_2be3767ecbaa5f520021dc0471da9964)
+        ;
+
+        
+    
+    
+            marker_6e0433032eaf95b4a63f760bd6e25479.bindTooltip(
+                `<div>
+                     Santuario di Santa Augusta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_505fa6ebead7ed017354845c61eb86d4 = L.marker(
+                [45.6976, 11.974],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_94fbfc72c1c01f8c9249c5845cb059f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f30680897db251ab8fb790167bb0e163 = $(`<div id="html_f30680897db251ab8fb790167bb0e163" style="width: 100.0%; height: 100.0%;">Villa Emo</div>`)[0];
+            popup_94fbfc72c1c01f8c9249c5845cb059f3.setContent(html_f30680897db251ab8fb790167bb0e163);
+        
+
+        marker_505fa6ebead7ed017354845c61eb86d4.bindPopup(popup_94fbfc72c1c01f8c9249c5845cb059f3)
+        ;
+
+        
+    
+    
+            marker_505fa6ebead7ed017354845c61eb86d4.bindTooltip(
+                `<div>
+                     Villa Emo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9dc5c433038101edbf35c9e3c4dc45cb = L.marker(
+                [45.901, 11.9933],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_f6c15f8fc99b139243a0d638503299db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c6cb48b2377c81afd2a3e7e3052b29e = $(`<div id="html_0c6cb48b2377c81afd2a3e7e3052b29e" style="width: 100.0%; height: 100.0%;">Valdobbiadene</div>`)[0];
+            popup_f6c15f8fc99b139243a0d638503299db.setContent(html_0c6cb48b2377c81afd2a3e7e3052b29e);
+        
+
+        marker_9dc5c433038101edbf35c9e3c4dc45cb.bindPopup(popup_f6c15f8fc99b139243a0d638503299db)
+        ;
+
+        
+    
+    
+            marker_9dc5c433038101edbf35c9e3c4dc45cb.bindTooltip(
+                `<div>
+                     Valdobbiadene
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77cd1015ce1402764b64b585fca074a4 = L.marker(
+                [45.8661, 11.7386],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_53dfe5f231e49d9eabafbec56fc0d88d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9acd52cc24a1ae62bff046cfca0137e7 = $(`<div id="html_9acd52cc24a1ae62bff046cfca0137e7" style="width: 100.0%; height: 100.0%;">Monte Grappa</div>`)[0];
+            popup_53dfe5f231e49d9eabafbec56fc0d88d.setContent(html_9acd52cc24a1ae62bff046cfca0137e7);
+        
+
+        marker_77cd1015ce1402764b64b585fca074a4.bindPopup(popup_53dfe5f231e49d9eabafbec56fc0d88d)
+        ;
+
+        
+    
+    
+            marker_77cd1015ce1402764b64b585fca074a4.bindTooltip(
+                `<div>
+                     Monte Grappa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_718c9617b2c9ba95d61ce3c3b1f4b1b7 = L.marker(
+                [45.955, 12.1146],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_53039dba90fb3dd3186d95e672e881fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12c89ee49f5b4773cf1cc7f4d2589a39 = $(`<div id="html_12c89ee49f5b4773cf1cc7f4d2589a39" style="width: 100.0%; height: 100.0%;">Cison di Valmarino</div>`)[0];
+            popup_53039dba90fb3dd3186d95e672e881fa.setContent(html_12c89ee49f5b4773cf1cc7f4d2589a39);
+        
+
+        marker_718c9617b2c9ba95d61ce3c3b1f4b1b7.bindPopup(popup_53039dba90fb3dd3186d95e672e881fa)
+        ;
+
+        
+    
+    
+            marker_718c9617b2c9ba95d61ce3c3b1f4b1b7.bindTooltip(
+                `<div>
+                     Cison di Valmarino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e10ba09c512ed7eb4ee52d925e2e87af = L.marker(
+                [45.9207, 12.2588],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_e901c61e79de0945d37651e60167c77e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7671af802b6e2a9d3c0eb74eab819df5 = $(`<div id="html_7671af802b6e2a9d3c0eb74eab819df5" style="width: 100.0%; height: 100.0%;">Pieve di San Pietro di Feletto</div>`)[0];
+            popup_e901c61e79de0945d37651e60167c77e.setContent(html_7671af802b6e2a9d3c0eb74eab819df5);
+        
+
+        marker_e10ba09c512ed7eb4ee52d925e2e87af.bindPopup(popup_e901c61e79de0945d37651e60167c77e)
+        ;
+
+        
+    
+    
+            marker_e10ba09c512ed7eb4ee52d925e2e87af.bindTooltip(
+                `<div>
+                     Pieve di San Pietro di Feletto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d047c7ed653e428e422f8cb8f8b637c = L.marker(
+                [46.0731, 12.0884],
+                {}
+            ).addTo(map_53b7f455805956a43c6e0e9fffdc3cfa);
+        
+    
+        var popup_becbf7c1c09951667d728fd30efd1e5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4f7b5e1fb67ab7d0d85fd14787726e2 = $(`<div id="html_d4f7b5e1fb67ab7d0d85fd14787726e2" style="width: 100.0%; height: 100.0%;">Castello di Zumelle</div>`)[0];
+            popup_becbf7c1c09951667d728fd30efd1e5d.setContent(html_d4f7b5e1fb67ab7d0d85fd14787726e2);
+        
+
+        marker_5d047c7ed653e428e422f8cb8f8b637c.bindPopup(popup_becbf7c1c09951667d728fd30efd1e5d)
+        ;
+
+        
+    
+    
+            marker_5d047c7ed653e428e422f8cb8f8b637c.bindTooltip(
+                `<div>
+                     Castello di Zumelle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
